@@ -19,7 +19,7 @@ setuptools.setup(
     keywords="GUI UI tkinter Qt WxPython Remi wrapper simple easy beginner novice student graphics progressbar progressmeter",
     url="https://github.com/PySimpleGUI/PySimpleGUI",
     include_package_data=True,
-    packages=setuptools.find_packages("PySimpleGUI", "PySimpleGUI.*"),
+    packages=setuptools.find_packages(include=["PySimpleGUI", "PySimpleGUI.*"]),
     classifiers=(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
